@@ -1,0 +1,159 @@
+/***********/
+/* TREEMAP */
+/***********/
+
+.grandparent text {
+  font-weight: bold;
+}
+
+rect.parent,
+.grandparent rect {
+  stroke-width: 2px;
+}
+
+.grandparent rect {
+  fill: rgb(167, 166, 166);
+}
+
+.grandparent:hover rect {
+  fill: #bdbdbd;
+}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;
+}
+
+.children rect.parent {
+  fill: #bbb;
+  fill-opacity: 0.8;
+}
+
+.children:hover rect.child {
+  fill: #bbb;
+}
+
+/************/
+/* Main CSS */
+/************/
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 1600px;
+}
+
+.parallelCoordinates {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+#parallelCoordinates {
+  height: 220px;
+  padding: 8px 1% 0;
+  border-top: 1px solid #d0d0d0;
+}
+
+#parallelCoordinates text {
+  font-size: 10px;
+}
+
+#parallelCoordinates text.label {
+  font-size: 12px;
+  font-weight: bold;
+  cursor: move;
+}
+
+.regression {
+  stroke-width: 2px;
+  stroke: steelblue;
+  stroke-dasharray: 10, 5;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.5;
+  shape-rendering: crispEdges;
+}
+
+.grid .domain {
+  visibility: hidden;
+}
+
+div.circleTooltip {
+  position: absolute;
+  text-align: left;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.scatterPlot circle {
+  cursor: pointer;
+}
+
+#observationNumber {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#obLabel {
+  font-size: 16px;
+}
+
+.slidecontainer {
+  width: 100%;
+  height: 24px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100px;
+  height: 8px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  background: #e9ecef;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+li {
+  margin-bottom: 12px;
+}
