@@ -4,7 +4,7 @@ The project is part of a bachelor thesis about the potential of interactive data
 
 For lack of data visualization experience, I opted for an explorative visualization approach to gain basic knowledge myself. The technical implementation is based to a large extent on the JavaScript library D3.js by Mike Bostock and should therefore be mentioned at this point. I hope the use of this tool is fun and leads to interesting insights.
 
-# Protoype Usage
+# prototype
 
 https://benluc.github.io/data_visualization_lego_investment/
 
