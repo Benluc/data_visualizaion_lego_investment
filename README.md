@@ -1,4 +1,4 @@
-# data_visualizaion_lego_investment
+# data_visualization_lego_investment
 
 The project is part of a bachelor thesis about the potential of interactive data visualization for decision-making in alternative investment opportunities. The example of lego investment was to find out to what extent visualization can help to gain insights from a large amount of data. The data presented was extracted from bricklink.com and brickset.com from June 4, 2018 to June 8, 2018. Due to data errors and missing data, the presented data represents approximately 25% of the total dataset of Lego Sets. The Lego sets shown are from the years 1966-2017. A point in the scatter plot and a complete line in the parallel coordinates represents a Lego Set.
 
